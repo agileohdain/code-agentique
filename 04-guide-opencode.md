@@ -38,7 +38,9 @@ opencode auth login   # choisir OpenRouter, coller la clé
 ## 4. Copier la config d'équipe
 
 ```bash
-cp config/opencode.json opencode.json
+git clone https://github.com/agileohdain/code-agentique.git
+cp code-agentique/config/opencode.json .    # macOS / Linux
+copy code-agentique\config\opencode.json .  # Windows
 ```
 
 Le fichier contient : le provider OpenRouter, le modèle par défaut (DeepSeek V4 Flash), et **nos 3 agents**. Adaptez le nom du modèle précis si besoin (`opencode models` liste les modèles disponibles).
@@ -74,3 +76,7 @@ Pourquoi 3 rôles séparés ? Parce qu'un agent qui écrit ne devrait pas être 
 | `.opencode/skills/` | Fiches méthode à la demande (voir [05-concepts.md](05-concepts.md)) |
 
 **À versionner dans le repo** : toute l'équipe démarre alors avec le même modèle, les mêmes agents et les mêmes règles — zéro friction à l'onboarding.
+
+---
+
+[⬅️ 03 — Coûts](03-couts.md) · [Sommaire](README.md) · [05 — Concepts ➡️](05-concepts.md)

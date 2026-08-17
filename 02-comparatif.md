@@ -48,3 +48,7 @@
 - Vous voulez **la crème de l'écriture de code** et payez l'abonnement sans sourciller → **Claude Code**.
 - Vous voulez **gratuit, ouvert, multi-LLM** et garder la main → **OpenCode** (notre choix).
 - **Combo gagnant** : OpenCode pour le travail agentique, Copilot (ou même le mode agent de VS Code) pour l'éditeur — ils cohabitent très bien.
+
+---
+
+[⬅️ 01 — Pourquoi](01-pourquoi-agent.md) · [Sommaire](README.md) · [03 — Coûts ➡️](03-couts.md)

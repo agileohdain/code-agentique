@@ -44,3 +44,7 @@ Une **harness** (Claude Code, Codex, OpenCode…) héberge des **agents** qui to
 ## Le seul vrai frein : la confiance
 
 On ne la donne pas d'un coup. On commence par une petite PR, on relit le diff, on monte en gamme. Tout le reste de ce dépôt est là pour vous y aider.
+
+---
+
+[⬅️ Sommaire](README.md) · [02 — Comparatif ➡️](02-comparatif.md)

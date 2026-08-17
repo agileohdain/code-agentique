@@ -57,11 +57,15 @@ LA question pour un cabinet de conseil. Réponse honnête :
 - **Nuance OpenRouter** : dans notre config, la clé passe par OpenRouter, un intermédiaire. Leur politique est bonne (pas d'entraînement, pas de log des prompts par défaut), mais les données transitent chez un tiers. Pour une sensibilité maximale : brancher la clé OpenAI/Anthropic **en direct** dans OpenCode, sans passer par OpenRouter.
 - **Le vrai critère n'est pas "open source ou pas", c'est *où tourne le modèle*** :
 
-| Cas | Confidentialité |
-|---|---|
-| DeepSeek via OpenRouter (API) | Les données sortent de l'infrastructure — fournisseur chinois, juridiction différente. Réservé aux données **non sensibles**. |
-| Modèle open source **en local** (Ollama) | Les données **ne quittent jamais la machine** → l'option la plus confidentielle qui existe, parfaite pour les données client sensibles. |
+  | Cas | Confidentialité |
+  |---|---|
+  | DeepSeek via OpenRouter (API) | Les données sortent de l'infrastructure — fournisseur chinois, juridiction différente. Réservé aux données **non sensibles**. |
+  | Modèle open source **en local** (Ollama) | Les données **ne quittent jamais la machine** → l'option la plus confidentielle qui existe, parfaite pour les données client sensibles. |
 
   Un modèle open source local est donc **plus sûr que GPT-5 via API**. Et la prudence ne se mesure pas au volume : **c'est la classification des données qui décide, pas la parcimonie**. Une donnée sensible copiée une seule fois est une donnée exposée.
 - **Règle d'or dans nos missions** : jamais de données client réelles dans l'agent sans validation (tester sur données fictives/anonymisées, bannir secrets et accès à la prod).
 - Si la confidentialité stricte s'impose (santé, banque…), **OpenCode sait se brancher sur un modèle local** (Ollama) : le code ne quitte plus la machine. C'est un atout que les solutions fermées n'offrent pas.
+
+---
+
+[⬅️ 02 — Comparatif](02-comparatif.md) · [Sommaire](README.md) · [04 — Guide OpenCode ➡️](04-guide-opencode.md)

@@ -3,7 +3,7 @@
 [![Licence](https://img.shields.io/badge/Licence-MIT-3DA639?style=flat-square)](LICENSE)
 [![OpenCode](https://img.shields.io/badge/OpenCode-gratuit-2ea44f?style=flat-square)](04-guide-opencode.md)
 [![Multi-LLM](https://img.shields.io/badge/Multi--LLM-aucun%20verrouillage-ff7a00?style=flat-square)](02-comparatif.md)
-[![Made by](https://img.shields.io/badge/Made%20by-Agile%20O%27Dain-5865F2?style=flat-square)](https://agileohdain.github.io)
+[![Made by](https://img.shields.io/badge/Made%20by-Oh%20da%20in-5865F2?style=flat-square)](https://github.com/agileohdain)
 
 > Votre futur collègue lit tout le dépôt, écrit le code, lance les tests — et ne se plaint jamais.
 
@@ -73,8 +73,10 @@ Guide de démarrage au **développement assisté par des agents IA** (agentic co
 # 1. Installer OpenCode
 npm install -g opencode-ai
 
-# 2. Copier la config d'équipe (modèle, 3 agents, permissions)
-cp config/opencode.json opencode.json
+# 2. Récupérer la config d'équipe (un clone de ce dépôt suffit)
+git clone https://github.com/agileohdain/code-agentique.git
+cp code-agentique/config/opencode.json .    # macOS / Linux
+copy code-agentique\config\opencode.json .  # Windows
 
 # 3. Brancher votre clé OpenRouter
 opencode auth login   # choisir OpenRouter, coller la clé
@@ -93,10 +95,10 @@ opencode
 - **Semaine 1** : vous lui déléguez une petite fonctionnalité de bout en bout (plan → code → tests).
 - **Mois 1** : il est votre binôme sur chaque mission, et vos livrables sont plus propres qu'avant.
 
-La confiance se donne par paliers : commencez petit, révérez tout, montez en gamme.
+La confiance se donne par paliers : commencez petit, relisez tout, montez en gamme.
 
 ---
 
 🤝 **Vous avez un retour, une astuce, un agent à partager ?** Les PR sont les bienvenues.
 
-© 2026 Agile O'Dain — [Licence MIT](LICENSE)
+© 2026 Oh da in — [Licence MIT](LICENSE)

@@ -35,4 +35,8 @@ C'est le protocole que votre IDE utilise déjà pour *aller à la définition*, 
 
 ## La règle d'or
 
-Aucun de ces outils ne remplace un bon contexte. Un agent brillant sur un brief flou, c'est un consultant brillant sur un brief flou : **tout se joue sur la qualité de ce qu'on lui donne** (et les [06-tips.md](06-tips.md) sont faites pour ça).
+Aucun de ces outils ne remplace un bon contexte. Un agent brillant sur un brief flou, c'est un consultant brillant sur un brief flou : **tout se joue sur la qualité de ce qu'on lui donne** — et [06-tips.md](06-tips.md) est là pour ça.
+
+---
+
+[⬅️ 04 — Guide OpenCode](04-guide-opencode.md) · [Sommaire](README.md) · [06 — Tips ➡️](06-tips.md)

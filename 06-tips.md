@@ -43,3 +43,7 @@
 | `/agents` | Lister et gérer les agents |
 | `opencode models` | Lister les modèles disponibles |
 | `/help` | Rappel de toutes les commandes |
+
+---
+
+[⬅️ 05 — Concepts](05-concepts.md) · [Sommaire](README.md)
