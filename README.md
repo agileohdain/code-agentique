@@ -5,10 +5,6 @@
 [![Multi-LLM](https://img.shields.io/badge/Multi--LLM-aucun%20verrouillage-ff7a00?style=flat-square)](02-comparatif.md)
 [![Made by](https://img.shields.io/badge/Made%20by-Oh%20da%20in-5865F2?style=flat-square)](https://github.com/agileohdain)
 
-> Votre futur collègue lit tout le dépôt, écrit le code, lance les tests — et ne se plaint jamais.
-
-Guide de démarrage au **développement assisté par des agents IA** (agentic coding), pensé pour nos missions de conseil data. Zéro jargon, zéro blabla : lisez 30 secondes, testez 10 minutes.
-
 ## ⚡ En 30 secondes
 
 1. Un **chatbot** vous répond. Un **agent** travaille dans votre dépôt : il lit le code, le modifie, exécute les tests.
