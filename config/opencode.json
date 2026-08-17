@@ -1,0 +1,41 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "openrouter": {
+      "npm": "@ai-sdk/openrouter",
+      "options": {
+        "baseURL": "https://openrouter.ai/api/v1"
+      }
+    }
+  },
+  "model": "openrouter/~deepseek/deepseek-v4-flash-latest",
+  "agent": {
+    "build": {
+      "description": "Agent principal : implémente, modifie le code et itère jusqu'au critère de fin demandé.",
+      "mode": "primary",
+      "temperature": 0.3,
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      }
+    },
+    "plan": {
+      "description": "Analyse le code et propose des plans ou des revues sans jamais modifier le dépôt.",
+      "mode": "primary",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "ask"
+      }
+    },
+    "test": {
+      "description": "Écrit et exécute les tests. L'arbitre n'est pas le joueur : utilisé après build.",
+      "mode": "subagent",
+      "temperature": 0.2,
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      }
+    }
+  }
+}
