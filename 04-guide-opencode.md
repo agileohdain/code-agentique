@@ -74,7 +74,6 @@ Pourquoi 3 rôles séparés ? Parce qu'un agent qui écrit ne devrait pas être 
 | Fichier | Rôle |
 |---|---|
 | `opencode.json` | Modèle, provider, agents, permissions |
-| `AGENTS.md` | Le mode d'emploi du repo que l'agent respecte (voir [06-tips.md](06-tips.md)) |
 | `.opencode/skills/` | Fiches méthode à la demande (voir [05-concepts.md](05-concepts.md)) |
 
 **À versionner dans le repo** : toute l'équipe démarre alors avec le même modèle, les mêmes agents et les mêmes règles — zéro friction à l'onboarding.

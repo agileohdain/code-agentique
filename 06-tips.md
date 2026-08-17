@@ -24,8 +24,7 @@
 }
 ```
 
-- **`AGENTS.md`** : le mode d'emploi du repo (stack, conventions, pièges connus, commandes de test). L'agent le lit en début de session — écrivez-le une fois, il applique à chaque mission. [Template fourni](config/AGENTS.md).
-- **Config d'équipe versionnée** : `opencode.json` et `AGENTS.md` dans le repo = tout le monde a le même setup, aucun onboarding à refaire.
+- **Config d'équipe versionnée** : `opencode.json` dans le repo = tout le monde a le même setup, aucun onboarding à refaire.
 
 ## 🧼 Hygiène de travail
 
