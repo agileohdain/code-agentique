@@ -9,25 +9,10 @@
 
 Guide de démarrage au **développement assisté par des agents IA** (agentic coding), pensé pour nos missions de conseil data. Zéro jargon, zéro blabla : lisez 30 secondes, testez 10 minutes.
 
-<!-- 📹 Zone démo : déposez votre GIF dans assets/demo-opencode.gif et décommentez la ligne ci-dessous -->
-<!-- ![Démo OpenCode](assets/demo-opencode.gif) -->
-<details>
-<summary><b>📹 Démo à venir — comment capturer le GIF (2 min)</b></summary>
-
-1. Ouvrez une session OpenCode sur un petit projet de démo.
-2. Enregistrez votre écran, fenêtre du terminal uniquement :
-   - Windows : **Win + Alt + R** (Xbox Game Bar) ;
-   - macOS : **Cmd + Shift + 5**.
-3. Montrez 3 choses en 15 secondes : une question sur le repo → l'agent qui modifie → les tests qui passent.
-4. Convertissez en GIF (ex. [ezgif.com](https://ezgif.com)) et déposez-le dans `assets/demo-opencode.gif`.
-5. Décommentez la ligne `<img>` ci-dessus et ouvrez une PR !
-
-</details>
-
 ## ⚡ En 30 secondes
 
 1. Un **chatbot** vous répond. Un **agent** travaille dans votre dépôt : il lit le code, le modifie, exécute les tests.
-2. Claude Code et Codex en usage intensif coûtent **100–200 $/mois** par développeur. OpenCode est **gratuit** — vous ne payez que les tokens API, soit **quelques dollars par journée intense** avec DeepSeek.
+2. Claude Code et Codex en usage intensif coûtent **plus de 250 $ CA/mois** par développeur. OpenCode est **gratuit** — vous ne payez que les tokens API, soit **environ 4 $ CA par journée intense** avec DeepSeek.
 3. OpenCode est **open source** et fonctionne avec n'importe quel LLM : vous n'êtes prisonnier d'aucun fournisseur.
 4. **3 agents** : `build` écrit, `plan` réfléchit, `test` vérifie — l'arbitre n'est jamais le joueur.
 5. Démarrage en **10 minutes**, sans abonnement ni engagement.
@@ -46,8 +31,8 @@ Guide de démarrage au **développement assisté par des agents IA** (agentic co
 
 | | Abonnement Max (Claude / Codex) | OpenCode + DeepSeek via API |
 |---|---|---|
-| Coût fixe mensuel | 100–200 $ | **0 $** |
-| Journée de dev intensive | Inclus | **≈ 3 $** |
+| Coût fixe mensuel | ≈ 140–275 $ CA | **0 $** |
+| Journée de dev intensive | Inclus | **≈ 4 $ CA** |
 | Engagement | Un mois minimum | **Aucun — vous payez ce que vous consommez** |
 
 [> 03 — Le détail des coûts et la question confidentialité](03-couts.md)
@@ -88,14 +73,6 @@ opencode
 </details>
 
 [> 04 — Le pas à pas complet](04-guide-opencode.md)
-
-## 🎯 La promesse
-
-- **Jour 1** : vous posez une question sur votre base de code, il répond avec les bonnes références.
-- **Semaine 1** : vous lui déléguez une petite fonctionnalité de bout en bout (plan → code → tests).
-- **Mois 1** : il est votre binôme sur chaque mission, et vos livrables sont plus propres qu'avant.
-
-La confiance se donne par paliers : commencez petit, relisez tout, montez en gamme.
 
 ---
 

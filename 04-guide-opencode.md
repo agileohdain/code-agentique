@@ -1,13 +1,15 @@
-# 04 — OpenCode : installation et configuration
+# 🛠️ 04 — OpenCode : installation et configuration
 
-## Pourquoi OpenCode ?
+> Dix minutes chrono, zéro abonnement — et vous avez un agent qui lit votre dépôt.
+
+## 🤔 Pourquoi OpenCode ?
 
 - **Léger** : un outil en ligne de commande, pas un IDE imposé ;
 - **Multi-LLM** : Claude, GPT, DeepSeek, Gemini, voire un modèle local ;
 - **Open source**, gratuit, configurable par fichiers versionnables (toute l'équipe a la même config) ;
 - **Pas de verrouillage** : changer de modèle = changer une ligne de config, pas changer d'outil.
 
-## 1. Installation
+## 1️⃣ Installation
 
 Prérequis : Node.js 20 ou plus (ou Bun).
 
@@ -16,7 +18,7 @@ npm install -g opencode-ai
 opencode --version
 ```
 
-## 2. Premiers pas dans votre projet
+## 2️⃣ Premiers pas dans votre projet
 
 ```bash
 cd votre-projet
@@ -25,9 +27,9 @@ opencode
 
 Posez une question sur le code : il lit le dépôt, il répond avec les bonnes références. Testez d'abord sur un projet perso ou de démo.
 
-## 3. Brancher OpenRouter (le passeport multi-LLM)
+## 3️⃣ Brancher OpenRouter (le passeport multi-LLM)
 
-1. Créez un compte sur [openrouter.ai](https://openrouter.ai) et ajoutez des crédits — **10 $ suffisent largement pour tester** ;
+1. Créez un compte sur [openrouter.ai](https://openrouter.ai) et ajoutez des crédits — **≈ 15 $ CA suffisent largement pour tester** ;
 2. Générez votre clé dans le tableau de bord (`API Keys`) ;
 3. Dans votre terminal, à la racine du projet :
 
@@ -35,7 +37,7 @@ Posez une question sur le code : il lit le dépôt, il répond avec les bonnes r
 opencode auth login   # choisir OpenRouter, coller la clé
 ```
 
-## 4. Copier la config d'équipe
+## 4️⃣ Copier la config d'équipe
 
 ```bash
 git clone https://github.com/agileohdain/code-agentique.git
@@ -45,7 +47,7 @@ copy code-agentique\config\opencode.json .  # Windows
 
 Le fichier contient : le provider OpenRouter, le modèle par défaut (DeepSeek V4 Flash), et **nos 3 agents**. Adaptez le nom du modèle précis si besoin (`opencode models` liste les modèles disponibles).
 
-## 5. Les 3 agents : build, plan, test
+## 5️⃣ Les 3 agents : build, plan, test
 
 Pourquoi 3 rôles séparés ? Parce qu'un agent qui écrit ne devrait pas être **le seul** à juger son propre travail.
 
@@ -67,7 +69,7 @@ Pourquoi 3 rôles séparés ? Parce qu'un agent qui écrit ne devrait pas être 
 
 [Voir la config complète](config/opencode.json)
 
-## 6. Les fichiers de travail
+## 6️⃣ Les fichiers de travail
 
 | Fichier | Rôle |
 |---|---|

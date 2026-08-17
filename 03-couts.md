@@ -1,21 +1,21 @@
-# 03 — Combien ça coûte, vraiment ?
+# 💰 03 — Combien ça coûte, vraiment ?
 
-*Prix relevés au 17/08/2026 — ils bougent souvent, faites vos propres vérifications avant d'engager un budget.*
+*Prix relevés au 17/08/2026, convertis en dollars canadiens (1 $ US ≈ 1,37 $ CA). Ils bougent souvent — faites vos propres vérifications avant d'engager un budget.*
 
-## Les abonnements
+## 📋 Les abonnements
 
 | Plan | Prix / mois | Pour qui |
 |---|---|---|
-| Claude Pro | 20 $ | Débutant |
-| Claude Max 5x | 100 $ | Usage intensif |
-| Claude Max 20x | 200 $ | Usage très intensif |
-| ChatGPT Plus (Codex) | 20 $ | Débutant |
-| ChatGPT Pro (Codex) | 100–200 $ | Usage intensif |
-| GitHub Copilot Pro | 10 $ | Autocomplétion + petit agent |
+| Claude Pro | ≈ 28 $ CA | Débutant |
+| Claude Max 5x | ≈ 140 $ CA | Usage intensif |
+| Claude Max 20x | ≈ 275 $ CA | Usage très intensif |
+| ChatGPT Plus (Codex) | ≈ 28 $ CA | Débutant |
+| ChatGPT Pro (Codex) | ≈ 140–275 $ CA | Usage intensif |
+| GitHub Copilot Pro | ≈ 15 $ CA | Autocomplétion + petit agent |
 
-Un abonnement se paie **même si on ne code pas un seul jour du mois**.
+> Un abonnement se paie **même si on ne code pas un seul jour du mois**.
 
-## OpenCode : gratuit + API à la carte
+## 🎁 OpenCode : gratuit + API à la carte
 
 Le logiciel est gratuit et open source. Seul coût : les **tokens consommés**, facturés par OpenRouter.
 
@@ -23,33 +23,33 @@ Exemple — modèle **DeepSeek V4 Flash** sur OpenRouter :
 
 | | Prix pour 1M tokens |
 |---|---|
-| Entrée (contexte, lecture du repo) | 0,0786 $ |
-| Sortie (code produit) | 0,1572 $ |
+| Entrée (contexte, lecture du repo) | ≈ 0,11 $ CA |
+| Sortie (code produit) | ≈ 0,22 $ CA |
 
-## Une journée de dev intensive, le calcul
+## 🧮 Une journée de dev intensive, le calcul
 
 Disons 20M tokens d'entrée + 8M de sortie (beaucoup, déjà) :
 
 ```
-20 × 0,0786 $ + 8 × 0,1572 $ = 1,57 $ + 1,26 $ ≈ 2,80 $
+20 × 0,11 $ + 8 × 0,22 $ = 2,20 $ + 1,76 $ ≈ 3,96 $ CA
 ```
 
-**Moins cher qu'un café.** Une journée de très grosse charge : 3 à 5 $.
+**Moins cher qu'un café.** Une journée de très grosse charge : 4 à 7 $ CA.
 
-## Le parallèle chiffré
+## ⚖️ Le parallèle chiffré
 
 | | Abonnement Max (Claude/Codex) | OpenCode + DeepSeek |
 |---|---|---|
-| Coût fixe mensuel | 100–200 $ par développeur | **0 $** |
-| Journée intensive | Incluse | ≈ 3 $ |
-| Mois complet intensif (22 j) | 100–200 $ | ≈ 60–100 $ |
-| Journée légère | Payée plein tarif | ≈ 1 $ |
+| Coût fixe mensuel | ≈ 140–275 $ CA par développeur | **0 $** |
+| Journée intensive | Incluse | **≈ 4 $ CA** |
+| Mois complet intensif (22 j) | ≈ 140–275 $ CA | **≈ 85–135 $ CA** |
+| Journée légère | Payée plein tarif | **≈ 1,50 $ CA** |
 
-## N'oublions pas le vrai poste de coût
+## ⏳ N'oublions pas le vrai poste de coût
 
 Ce n'est ni l'abonnement ni l'API : **c'est votre temps**. Au tarif d'un consultant, une heure gagnée par jour rembourse l'abonnement le plus cher du marché. L'API, elle, rend la décision sans risque : **on teste gratuitement, on ne paie que si on en use.**
 
-## Et la confidentialité des données client ?
+## 🔒 Et la confidentialité des données client ?
 
 LA question pour un cabinet de conseil. Réponse honnête :
 
