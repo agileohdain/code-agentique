@@ -13,7 +13,7 @@
 | ChatGPT Pro (Codex) | ≈ 140–275 $ CA | Usage intensif |
 | GitHub Copilot Pro | ≈ 15 $ CA | Autocomplétion + petit agent |
 
-> Un abonnement se paie **même si on ne code pas un seul jour du mois**.
+> Un abonnement se paie **même si on ne code pas un seul jour du mois**. Et certains fondent plus vite que d'autres : voir [08-ou-sont-mes-tokens.md](08-ou-sont-mes-tokens.md).
 
 ## 🎁 OpenCode : gratuit + API à la carte
 

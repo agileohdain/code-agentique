@@ -99,4 +99,4 @@ Le modèle tourne sur votre machine — reste à le brancher dans OpenCode (sect
 
 ---
 
-[⬅️ 06 — Tips](06-tips.md) · [Sommaire](README.md)
+[⬅️ 06 — Tips](06-tips.md) · [Sommaire](README.md) · [08 — Tokens ➡️](08-ou-sont-mes-tokens.md)
