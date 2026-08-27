@@ -38,19 +38,13 @@ La licence du *modèle* n'est pas celle de l'*outil*. **OpenCode** est sous lice
 
 ### 🧾 Exemples de licences pour les modèles open weight
 
-| Modèle | Licence | Usage commercial ? | Fine-tune ? | Redistribution ? |
-|---|---|---|---|---|
-| **Qwen3** | Apache 2.0 | ✅ | ✅ | ✅ |
-| **gpt-oss** | Apache 2.0 | ✅ | ✅ | ✅ |
-| **DeepSeek V4 Flash** | MIT | ✅ | ✅ | ✅ |
-| **Llama 3** | Llama Community License | ✅ (sauf >700M MAU) | ✅ | ✅ avec mention « Built with Llama » |
-| **Gemma 4** | Apache 2.0 | ✅ | ✅ | ✅ |
+| Modèle | Licence | Conditions à connaître |
+|---|---|---|
+| **Qwen3**, **gpt-oss**, **Gemma 4** | Apache 2.0 | Quasi aucune — conserver la mention de licence |
+| **DeepSeek V4 Flash** | MIT | Idem — mention de copyright |
+| **Llama 3** | Community License | Interdit au-delà de 700M utilisateurs/mois, mention « Built with Llama », politique d'usage, et les dérivés héritent de la licence |
 
-> 📌 **Pour un cabinet de conseil** : toutes ces licences permettent l'usage commercial en pratique. La contrainte des 700M utilisateurs mensuels ne concerne que les géants.
-
-### 🧰 Les outils locaux
-
-Les outils pour faire tourner des modèles localement (comme **Ollama** ou **llama.cpp**) sont eux aussi souvent open source, sous licence MIT. Ils permettent de gérer et exécuter les modèles sans avoir à les héberger soi-même.
+> 📌 **Pour un cabinet de conseil** : toutes ces licences autorisent l'usage commercial, le fine-tune et la redistribution — « open » ne veut pas dire « non commercial ». La vraie frontière est ailleurs : **propriétaire** (poids secrets, accès API uniquement) vs **open weight** (poids téléchargeables). La différence entre licences se joue dans les **conditions**, pas dans les droits.
 
 ## ⚖️ Local vs API : les vraies différences
 
@@ -62,9 +56,38 @@ Les outils pour faire tourner des modèles localement (comme **Ollama** ou **lla
 | **Matériel requis** | ⚠️ GPU (ou CPU puissant) nécessaire | ✅ Aucun — tout tourne chez le fournisseur |
 | **Mise à jour** | ⚠️ Installation manuelle | ✅ Automatique |
 
-## 🦙 Installer un modèle local (Ollama)
+## 🦙 Ollama, LM Studio, llama.cpp : quel outil choisir ?
 
-*À venir — installation d'Ollama et téléchargement d'un premier modèle.*
+Faire tourner un modèle local demande un logiciel d'**inférence**. Trois grands choix, trois philosophies :
+
+| Outil | C'est quoi | Interface | Open source | Pour qui |
+|---|---|---|---|---|
+| **llama.cpp** | Le moteur d'inférence (format GGUF, CPU ou GPU) | Ligne de commande | ✅ MIT | Les bidouilleurs — contrôle total |
+| **Ollama** | Le gestionnaire clé en main construit sur llama.cpp | Ligne de commande + API locale | ✅ MIT | **Le choix par défaut**, surtout avec OpenCode |
+| **LM Studio** | L'app graphique : boutique de modèles, chat, réglages | Interface graphique | ❌ Propriétaire, gratuit y compris au travail | Ceux qui ne veulent pas du terminal |
+| **vLLM** | Serveur haute performance pour GPU | API (sans interface) | ✅ | Équipes, serveurs dédiés |
+| **Jan** | L'alternative GUI open source à LM Studio | Interface graphique | ✅ MIT | Le GUI sans logiciel propriétaire |
+
+> Analogie : **llama.cpp** est le moteur, **Ollama** la voiture clé en main, **LM Studio** le même modèle avec tableau de bord et GPS.
+
+**Verdict en une ligne** : explorer sans terminal → LM Studio ; travailler avec OpenCode → **Ollama**, dont l'API locale (compatible OpenAI, sur `localhost:11434`) se branche nativement.
+
+### ⚙️ Installer Ollama
+
+```bash
+# macOS / Linux
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Windows : télécharger l'installateur sur ollama.com
+```
+
+Puis télécharger et discuter avec un premier modèle :
+
+```bash
+ollama run qwen3
+```
+
+Le modèle tourne sur votre machine — reste à le brancher dans OpenCode (section suivante).
 
 ## 🔌 Brancher OpenCode sur le modèle local
 
