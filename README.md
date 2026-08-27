@@ -43,6 +43,7 @@
 | 🛠️ [04-guide-opencode.md](04-guide-opencode.md) | Installer OpenCode et configurer les 3 agents |
 | 🔧 [05-concepts.md](05-concepts.md) | Skills, plugins, MCP, LSP — expliqués simplement |
 | 💡 [06-tips.md](06-tips.md) | Les raccourcis et bonnes pratiques qui changent tout |
+| 🏠 [07-llm-locaux.md](07-llm-locaux.md) | LLM locaux : open weight, licences, confidentialité maximale |
 | ⚙️ [config/](config/) | Fichiers de configuration prêts à copier |
 
 ## 🚀 Démarrage en 10 minutes

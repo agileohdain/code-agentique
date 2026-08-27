@@ -64,7 +64,7 @@ LA question pour un cabinet de conseil. Réponse honnête :
 
   Un modèle open source local est donc **plus sûr que GPT-5 via API**. Et la prudence ne se mesure pas au volume : **c'est la classification des données qui décide, pas la parcimonie**. Une donnée sensible copiée une seule fois est une donnée exposée.
 - **Règle d'or dans nos missions** : jamais de données client réelles dans l'agent sans validation (tester sur données fictives/anonymisées, bannir secrets et accès à la prod).
-- Si la confidentialité stricte s'impose (santé, banque…), **OpenCode sait se brancher sur un modèle local** (Ollama) : le code ne quitte plus la machine. C'est un atout que les solutions fermées n'offrent pas.
+- Si la confidentialité stricte s'impose (santé, banque…), **OpenCode sait se brancher sur un modèle local** (Ollama) : le code ne quitte plus la machine. C'est un atout que les solutions fermées n'offrent pas. **Voir aussi [07-llm-locaux.md](07-llm-locaux.md)**.
 
 ---
 

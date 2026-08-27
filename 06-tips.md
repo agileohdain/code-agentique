@@ -47,4 +47,4 @@
 
 ---
 
-[⬅️ 05 — Concepts](05-concepts.md) · [Sommaire](README.md)
+[⬅️ 05 — Concepts](05-concepts.md) · [Sommaire](README.md) · [07 — LLM locaux ➡️](07-llm-locaux.md)

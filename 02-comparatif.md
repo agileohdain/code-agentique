@@ -31,7 +31,7 @@
 ## 🏆 OpenCode — le choix de ce dépôt
 
 **+** **Open source et gratuit** : pas d'abonnement, vous payez uniquement les tokens (cf. [03-couts.md](03-couts.md)).
-**+** **Multi-LLM** : un seul outil pour DeepSeek, Claude, GPT ou un modèle local Ollama — on change de modèle comme on change de carte SIM.
+**+** **Multi-LLM** : un seul outil pour DeepSeek, Claude, GPT ou un [modèle local Ollama](07-llm-locaux.md) — on change de modèle comme on change de carte SIM.
 **+** Léger et configurable par fichiers versionnables (`opencode.json`, agents, permissions).
 **−** Finitions moins "commerciales" : petite config initiale à faire soi-même (2 minutes).
 
